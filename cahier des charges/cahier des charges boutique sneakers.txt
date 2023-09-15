@@ -1,0 +1,95 @@
+
+
+# Cahier des charges pour le projet d'e-commerce
+
+## Objectif du projet
+Le projet consiste à développer un site web d'e-commerce permettant à des utilisateurs de parcourir, rechercher, sélectionner et acheter des produits en ligne. Le site doit également permettre à l'administrateur de gérer les produits, les commandes et le contenu du site.
+
+## Fonctionnalités clés
+### Pour les utilisateurs :
+1. **Inscription et Connexion** :
+   - Les utilisateurs doivent pouvoir s'inscrire en créant un compte avec leur nom, adresse e-mail et mot de passe.
+   - Les utilisateurs enregistrés doivent pouvoir se connecter en utilisant leur adresse e-mail et leur mot de passe.
+   - Les utilisateurs doivent pouvoir réinitialiser leur mot de passe en cas d'oubli.
+
+2. **Parcourir les produits** :
+   - Les utilisateurs doivent pouvoir parcourir les produits par catégorie.
+   - Ils doivent pouvoir voir les détails d'un produit, y compris une image, une description, un prix et la disponibilité.
+
+3. **Ajouter au panier** :
+   - Les utilisateurs doivent pouvoir ajouter des produits à leur panier.
+   - Ils doivent pouvoir ajuster la quantité des produits dans le panier et supprimer des produits du panier.
+
+4. **Passer commande** :
+   - Les utilisateurs doivent pouvoir passer une commande en fournissant leur adresse de livraison.
+   - Ils doivent pouvoir voir un récapitulatif de leur commande avant de la confirmer.
+
+### Pour l'administrateur :
+1. **Connexion** :
+   - L'administrateur doit pouvoir se connecter en utilisant des identifiants spécifiques.
+
+2. **Gestion des produits** :
+   - L'administrateur doit pouvoir ajouter, modifier et supprimer des produits.
+   - Chaque produit doit avoir un nom, une description, une catégorie, un prix, une image et une quantité disponible.
+
+3. **Gestion des commandes** :
+   - L'administrateur doit pouvoir voir la liste des commandes passées par les utilisateurs.
+   - Chaque commande doit afficher les détails du client, les produits commandés et le montant total.
+
+4. **Gestion du contenu du site** :
+   - L'administrateur doit pouvoir modifier le contenu du site, y compris les images du carrousel sur la page d'accueil et les textes associés.
+
+## Technologies
+Le projet sera développé en utilisant les technologies suivantes :
+- PHP pour le backend.
+- HTML, CSS, JavaScript pour le frontend.
+- MySQL pour la base de données.
+
+## Sécurité
+La sécurité doit être une préoccupation majeure, en particulier pour :
+- La gestion des sessions utilisateur.
+- La validation des entrées utilisateur.
+- La protection contre les attaques CSRF et XSS.
+- La sécurisation du téléchargement de fichiers.
+
+## Interface utilisateur
+L'interface utilisateur doit être conviviale, responsive (adaptée aux appareils mobiles) et attrayante.
+
+## Performances
+Le site doit être rapide et réactif, en minimisant les temps de chargement.
+
+## Maintenance
+Le code source doit être bien commenté et organisé pour faciliter la maintenance future.
+
+## Livrables
+- Code source complet du projet.
+- Base de données avec la structure et les données initiales.
+- Documentation d'utilisation pour les administrateurs.
+
+## Calendrier
+- Date de début : [Date de début prévue]
+- Date de fin : [Date de fin prévue]
+
+Fonctionnalités additionnelles
+Paiement en ligne :
+Système de paiement :
+
+Intégrer un système de paiement en ligne, tel que Stripe, PayPal ou un autre fournisseur de paiement.
+Les utilisateurs doivent pouvoir payer leurs commandes en utilisant une carte de crédit ou d'autres méthodes de paiement acceptées.
+Gestion des paiements :
+
+L'administrateur doit pouvoir voir l'historique des paiements et le statut de chaque paiement (accepté, en attente, refusé, etc.).
+En cas de problème avec un paiement, l'administrateur doit pouvoir prendre des mesures appropriées, telles que le remboursement.
+Tableau de bord (Dashboard) :
+Tableau de bord de l'administrateur :
+
+Créer un tableau de bord pour l'administrateur avec des statistiques clés, telles que les ventes totales, le nombre de commandes, etc.
+Afficher une liste des commandes récentes avec des détails, y compris le nom du client, la date de la commande et le montant total.
+Filtrage et recherche :
+
+Permettre à l'administrateur de filtrer et de rechercher facilement les commandes en fonction de différents critères, tels que la date, le nom du client, le statut de la commande, etc.
+Gestion des commandes :
+
+L'administrateur doit pouvoir voir les détails complets de chaque commande, y compris les produits commandés, les adresses de livraison et de facturation, le montant total, etc.
+Donner à l'administrateur la possibilité de mettre à jour le statut des commandes (en cours, expédiée, livrée, etc.).
+Permettre à l'administrateur d'envoyer des notifications par e-mail aux clients concernant l'état de leur commande.
